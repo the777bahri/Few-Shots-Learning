@@ -1,3 +1,14 @@
+Project Description
+
+This project implements a few-shot learning approach using Prototypical Networks for image classification. It provides the ability to classify images from a limited dataset and dynamically set up different layers and filters for training.
+
+Features
+
+Prototypical Networks for few-shot learning.
+Multiple configuration options (layers, filters, dropout rate, batch normalization).
+Support for training with custom datasets.
+Evaluation of model accuracy with minimal training data.
+
 How to set up the code environment.
 
 1. Install Anaconda
@@ -25,37 +36,39 @@ https://pytorch.org/get-started/locally/
 
 few_shot_project/
 
-├── train.py
+├── train.py               # Script to train the model
 
-├── test.py
+├── test.py                # Script to test the model
 
 ├── datasets/
 
-│   ├── train/
+│   ├── train/             # Training dataset
 
-│     ├── class1/
+│   │   ├── class1/
 
-│       ├── image1.png
+│   │   │   ├── image1.png # Images for class1
 
-│     ├── class2/
+│   │   ├── class2/
 
-│       ├── image1.png
+│   │   │   ├── image1.png # Images for class2
 
-│   ├── test/
+│   ├── test/              # Test dataset
 
-│     ├── image1.png
+│   │   ├── image1.png
 
-│   ├── support set/
+│   ├── support set/       # Support set for few-shot learning
 
-│     ├── class1/
+│       ├── class1/
 
-│       ├── image1.png
+│       │   ├── image1.png # Support images for class1
 
-│     ├── class2/
+│       ├── class2/
 
-│       ├── image1.png
+│           ├── image1.png # Support images for class2
 
-└── saved_models/
+└── saved_models/          # Directory to store trained models
+
+
 
 
 
