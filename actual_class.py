@@ -1,0 +1,22 @@
+actual_classes = {
+        "test_1": "bird",
+        "test_2": "bird",
+        "test_3": "bird",
+        "test_4": "unknown",
+        "test_5": "butterfly",
+        "test_6": "butterfly",
+        "test_7": "bird",
+        "test_8": "bird",
+        "test_9": "bird",
+        "test_10": "bird",
+        "test_11": "butterfly",
+        "test_12": "butterfly",
+        "test_13": "butterfly",
+        "test_14": "unknown",
+        "test_15": "unknown",
+        "test_16": "unknown",
+        "test_17": "bird",
+        "test_18": "butterfly",
+        "test_19": "butterfly",
+        "test_20": "unknown"
+    }

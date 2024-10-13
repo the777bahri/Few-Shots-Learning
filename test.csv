@@ -1,0 +1,5 @@
+model number,number of layers,filter1,filter2,filter3,filter4,filter5,dropout rate,batch normalization,number of training episodes,learning rate,batch size,number of workers,accuracy
+1,3,64,128,256,0,0,0.5,TRUE,200,0.001,4,12,50
+2,3,64,128,256,0,0,0.5,FALSE,200,0.001,4,12,20
+3,4,64,128,256,512,0,0.4,TRUE,200,0.001,4,12,60
+4,5,32,64,128,256,512,0.3,TRUE,200,0.001,4,12,60
