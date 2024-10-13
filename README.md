@@ -68,7 +68,11 @@ few_shot_project/
 
 └── saved_models/          # Directory to store trained models
 
+Model Accuracy
 
+The model accuracy was 60% in classifying bird, butterfly, and uknown class. 
+
+the reason for the unkown class is reduce overvitting from the other two classes
 
 
 
